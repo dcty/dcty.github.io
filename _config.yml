@@ -1,6 +1,8 @@
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 pygments: true
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
 kramdown:
   input: GFM
