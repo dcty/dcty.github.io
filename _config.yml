@@ -1,10 +1,10 @@
 permalink: /:year/:month/:day/:title.html
-markdown: kramdown
+markdown: redcarpet
 pygments: true
 redcarpet:
     extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
-kramdown:
+redcarpet:
   input: GFM
 
 # 作者信息
